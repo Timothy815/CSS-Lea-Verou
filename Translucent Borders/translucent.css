@@ -1,0 +1,20 @@
+/*
+Translucent Borders 
+*/
+
+
+body {
+	background: url('flower.jpg');
+}
+
+div {
+	border: 10px solid #FFFFFF55;/*hsla(0,0%,100%,.5);*/
+	background: white;
+	background-clip: padding-box;
+	
+	/* styling */
+	max-width: 20em;
+	padding: 2em;
+	margin: 2em auto 0;
+	font: 100%/1.5 sans-serif;
+}

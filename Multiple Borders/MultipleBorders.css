@@ -1,0 +1,17 @@
+/**
+ * Multiple borders
+	-By using box-shaddow without any offset and with a spread, we can layer
+	extra borders in a box-shaddow comma separated list. Top borders first.
+ */
+
+div {
+	width: 100px;
+	height: 60px;
+	margin: 25px;
+	padding: 0.3em;
+	background: yellowgreen;
+	box-shadow: 0 0 0 10px #655,
+            0 0 0 15px deeppink,
+			0 0 0 20px orange,
+            0 2px 5px 20px rgba(0,0,0,.6);
+}
