@@ -1,0 +1,52 @@
+html body{
+	margin:0;
+	padding:0;
+}
+#criscross{
+	margin:20px;
+	width:100%;
+	height: 100px;
+	background-color: gray;
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 3px, black 3px, black 6px),repeating-linear-gradient(-45deg, transparent, transparent 3px, black 3px, black 6px);
+	
+	
+}
+/* This is not the best way.*/
+#stripes-45bad{
+	margin:20px;
+	width:100%;
+	height: 100px;
+	background-color: #5433FF;
+	background-image: repeating-linear-gradient(45deg, transparent 0%, transparent 25%, #00000044 0%,  #00000044 50%);
+	background-size: 42.4px 42.4px;
+}
+
+#stripes-45{
+	margin:20px;
+	width:100%;
+	height: 100px;
+	--stripe_width: 20px;
+	background-image: repeating-linear-gradient(35deg, white 0, white calc(1 * var(--stripe_width)), yellow 0, yellow calc(2 * var(--stripe_width)), red 0, red calc(3 * var(--stripe_width)));
+	
+}
+
+
+#stripes-h{
+	margin:20px;
+	width:100%;
+	height: 100px;
+	background-color: #5433FF;
+	background: linear-gradient(#FFF 50%, #F4F 0);
+	background-size: 100% 10px;
+	
+}
+
+#stripes-v{
+	margin:20px;
+	width:100%;
+	height: 100px;
+	background-color: #5433FF;
+	background: linear-gradient(90deg, #FFF 50%, #4FF 0);
+	background-size: 10px 10px;
+	
+}
