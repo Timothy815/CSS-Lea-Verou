@@ -1,0 +1,18 @@
+/*
+Extended baackground-position Solution
+
+*/
+
+div {
+	background: url(me.jpg)
+	            no-repeat bottom right #58a;
+	background-size: 40px;
+	background-position: right 20px bottom 20px;
+	
+	/* Styling */
+	max-width: 20em;
+	min-height: 10em;
+	padding: 10px;
+	color: white;
+	font: 100%/1 sans-serif;
+}
