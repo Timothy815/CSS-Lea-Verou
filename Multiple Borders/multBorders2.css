@@ -9,9 +9,15 @@ div{
 	width:20%;
 	height:20%;
 	padding:1.5em;
-	background: yellowgreen;
+	background: #655;
+	border-radius: 0.5em;
 	border: 10px solid #655;
-	outline: 15px solid deeppink;
+	outline: 2px dotted white;
+	outline-offset: -15px;
 }
 
 //Verou, Lea. CSS Secrets (p. 30). O'Reilly Media. Kindle Edition. 
+/*original*/
+/*background: yellowgreen;*/
+/*border: 10px solid #655;*/
+/*outline: 15px solid deeppink;*/
