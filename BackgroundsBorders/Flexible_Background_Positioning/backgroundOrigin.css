@@ -1,5 +1,8 @@
 /*
-Background Origin example from the book 
+Background Origin example from the book .
+By default, its value is (quite predictably) padding-box. If we change it to content-box, as in the following code, the side and corner keywords we use in background-position will refer to the edge of the content box (effectively, this means that any background images will be offset from the sides/corners as much as our padding is):
+
+Verou, Lea. CSS Secrets (p. 34). O'Reilly Media. Kindle Edition. 
 */
 
 div{
