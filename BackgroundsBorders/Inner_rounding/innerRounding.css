@@ -1,0 +1,26 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+/*
+Inner Rounding through outline and border-radius
+border-radius * (sqrt(2)-1) = spread for box-shadow
+if our outline width is smaller than (sqrt(2)-1), this is not possible and we cannot apply this effect.
+
+**Note - Outline now follows border radius - this method no longer works.
+Try below if you want the same effect.
+*/
+.something-meaningful{
+	background: #655;
+		padding: .8em;
+	width: 30%;
+	height:10%;
+	margin:20px;
+}
+
+.something-meaningful>div{
+	background: tan;
+	border-radius: 0.8em;
+	padding: 1em;
+	
+}
