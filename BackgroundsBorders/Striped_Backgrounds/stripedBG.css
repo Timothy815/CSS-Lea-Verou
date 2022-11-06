@@ -1,6 +1,8 @@
 html body{
 	margin:0;
 	padding:0;
+	width:100%;
+	height:10000px;
 }
 #criscross{
 	margin:20px;
@@ -57,4 +59,56 @@ html body{
 	height: 100px;
 	background: #58a;
 	background-image: repeating-linear-gradient(45deg, #FFFFFF33 0px 20px, transparent 20px 40px);
+}
+
+#gingham{
+	margin:20px;
+	width:100%;
+	height: 100px;
+	background: white;
+	--stripe_color: #FF000081;
+	background-image: linear-gradient(90deg, var(--stripe_color) 0 50%, transparent 0),
+					  linear-gradient(0deg, var(--stripe_color) 0 50%, transparent 0);
+	background-size: 20px 20px;
+}
+
+#grid{
+	margin:20px;
+	width:100%;
+	height: 101px;
+	background: #2222AA;
+	border: solid 1px #555555;
+	--stripe_color: #FFFFFF55;
+	background-image: 
+		linear-gradient(var(--stripe_color) 0 2px, transparent 0px),
+		linear-gradient(90deg,var(--stripe_color) 0 2px, transparent 0px),
+		linear-gradient(var(--stripe_color) 0 1px, transparent 0px),
+		linear-gradient(90deg,var(--stripe_color) 0 1px, transparent 0px);
+	background-size:45px 45px, 45px 45px,
+					15px 15px, 15px 15px;
+}
+
+#dots{
+	margin:20px;
+	width:100%;
+	height: 101px;
+	background: #111111;
+	background-image: 
+	radial-gradient(#00000022 30%, transparent 0),
+	radial-gradient(#00000022 30%, transparent 0),
+	radial-gradient(#11111155,#22222255);
+	background-size: 10px 10px;
+	background-position: 0 0 , 15px 15px;
+}
+
+#screen{
+	margin:20px;
+	width:100%;
+	height: 101px;
+	background: #111;
+	background-image: 
+	radial-gradient(#000 30%, transparent 0),
+	radial-gradient(#000 30%, transparent 0);
+	background-size: 3px 30px;
+	background-position: 0 0 , 15px 15px;
 }
