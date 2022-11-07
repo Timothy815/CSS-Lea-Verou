@@ -52,3 +52,14 @@
 	font-family: sans-serif;
 	font-size:2em;
 }
+@keyframes ants { to {background-position: 100%}}
+#marchingAnts{
+  padding: 1em;
+	margin: 20px;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(white, white) padding-box, 
+    repeating-linear-gradient(-45deg,
+        black 0 25%, white 0 50%) 0 / 0.6em 0.6em;
+  animation: ants 12s linear infinite;
+}
