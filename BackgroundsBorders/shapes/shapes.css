@@ -1,0 +1,65 @@
+.container{
+  padding:0;
+  margin:5px;
+  width: 200px;
+  height:200px;
+}
+#fullElipse{
+  width: 50%;
+  height: 70%;
+  border-radius:50% ;
+  background-color: orange;
+}
+
+#halfElipse{
+  width: 50%;
+  height: 50%;
+  border-radius:50% / 100% 100% 0 0;
+  background-color: orange;
+}
+
+#quarterElipse{
+  width: 50%;
+  height: 50%;
+  border-radius: 100% 0 0 0;
+  background-color: orange;
+}
+
+#pie{
+  width: 7em;
+  height:7em;
+  background-color: gray;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    red 0 25deg,
+    green 25deg 200.5deg,
+    blue 0 75deg
+  );
+  
+  
+}
+
+#doughnuthole{
+  width:5em;
+  height:5em;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 1em;
+  top: 1em;
+}
+
+#parallelogram{
+  width: 7em;
+  height:3em;
+  background-color: gray;
+  transform: skewX(-15deg) translateX(20px); 
+}
+#partxt{
+  position:relative;
+  top:1.0em;
+  left:1.5em;
+ transform: skewX(15deg);
+  font-family:sans-serif;
+  color: white;
+}
