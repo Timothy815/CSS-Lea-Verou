@@ -63,3 +63,14 @@
         black 0 25%, white 0 50%) 0 / 0.6em 0.6em;
   animation: ants 12s linear infinite;
 }
+
+.footnote {
+	border-top: .15em solid transparent;
+	border-image: 100% 0 0 linear-gradient(90deg, currentColor 4em, transparent 0);
+	padding-top: .5em;
+	font: 220%/1.4 Baskerville, Palatino, serif;
+}
+
+
+
+
