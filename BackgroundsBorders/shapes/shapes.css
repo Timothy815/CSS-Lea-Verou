@@ -64,6 +64,7 @@
   color: white;
 }
 
+
 #parallelogram2{
   position: relative;
   display: inline-block;
@@ -85,3 +86,5 @@
 	background: #58a;
 	transform: skew(45deg);
 }
+
+
