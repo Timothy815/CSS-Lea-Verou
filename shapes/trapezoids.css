@@ -3,31 +3,43 @@ div{
 	width: 200px;
 	height: 50px;
 	margin: 20px;
-	background: #567;
 	padding: 10px;
 }
 
 .trap-cp{
 	--inset: 30px;
-	padding-left: var(--inset);
-	padding-right: var(--inset);
+	background: gray;
+	padding: 0;
 	clip-path: polygon(calc(0% + var(--inset)) 0%, calc(100% - var(--inset)) 0%,100% 100%, 0% 100%);
 	text-align: center;
 	line-height: 2em;
-	transition: 0.2s clip-path;
-}
-.trap-cp:hover{
-	--inset:0px;
+	color: white;
+	line-height: 3em;
+	font-family: sans-serif;
+
 }
 
 
 .trap-persp{
 	position: relative;
 	display: inline-block;
-	padding: 0.5em 1em 0.34;
+	padding: 0.5em 1em 0.35em;
 	color: white;
+	text-align: center;
+	line-height: 2.0em;
+	
 }
 
 .trap-persp::before{
-	transform: perspective(0.5em) rotateX(5deg);
+	content: "";
+	position: absolute;
+	top:0; right: 0; bottom: 0; left: 0;
+	z-index: -1;
+	background: #58a;
+	border:2px dashed black;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	transform-origin: bottom ;
+	line-height: 2.5em;
+	transform: scaleY(1.1) perspective(1.5em) rotateX(5deg) ;
 }
