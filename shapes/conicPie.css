@@ -1,0 +1,31 @@
+.pie{
+	color: transparent;
+	width: 7em;
+	height:7em;
+	background-color: gray;
+	border-radius: 50%;
+	--c1: 15%;
+	--c2: 35%;
+	--c3: 40%;
+	--c4: 10%;
+	background-image: conic-gradient(
+		red 0 var(--c1),
+		green 0 calc(var(--c1) + var(--c2)),
+		blue 0 calc(var(--c1) + var(--c2) + var(--c3)),
+		purple 0 calc(var(--c1) + var(--c2) + var(--c3) + var(--c4))
+	);
+}
+
+.pie::before{
+	content:"";
+	display: block;
+	position: relative;
+	margin: auto ;
+	width: 80px;
+	height:80px;
+	background: white;
+	top:15px;
+	border-radius: 50%;
+	
+	
+}
